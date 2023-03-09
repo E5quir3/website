@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+
+
+body{
+    font-family: fantasy;
+    background-image:url(/catpaws.jpg);
+    text-align:center;
+    }
+
+
+p{
+    background-color: rgb(250, 248, 249);
+    color:rgb(245, 123, 184);
+    text-shadow:black 1px 2px;
+}
+
+h1 {
+    text-shadow: black 1px 1px;
+    color:rgb(82, 82, 184);
+    font-size: 65;
+
+}
+
+h3 {
+    text-shadow: black 1px 1px;
+    background-color: rgb(250, 248, 249);
+    color:rgb(245, 123, 184);
+}
+
+h2 {
+    text-shadow: black 1px 1px;
+    background-color: rgb(250, 248, 249); 
+    color:darkorchid;
+}
+
+/* 
+.index{
+    background-image:url(cats\ image.avif);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
+.about{
+    background-image:url(kittylogo.jpg) ;
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
+.ratings{
+    background-image: url(kittylogo.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
+.bankdetails{
+    background-image: url(kittylogo.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat:no-repeat ;
+}
+.contact{
+    background-image: url(cats\ image.htm);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+.home{
+    background-image: url(cats\ image.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} */
+
+img{
+    width: 90%;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    border-style:double;
+    border-color: black;
+    background-color: rgb(253, 252, 252);
+}
+
+#navbar a:hover{
+    color:rgb(12, 235, 205);
+}
+
+#navbar a{
+    text-decoration: none;
+}
